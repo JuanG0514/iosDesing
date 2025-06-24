@@ -113,7 +113,7 @@ main{
     display: flex;
     flex-direction: column;
     border:none;
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #423f3f;
     padding: 5px;
     height: auto;
     gap:80px;
@@ -174,15 +174,22 @@ main{
 }
 .dates{
     display: flex;
+    width: 80vw;
+    justify-content: space-between;
 }
+
 .dates-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
+ .blog p{
+    color: #9c9b9b;
+ }
 .blog{
     display: flex;
+    width: 30vw;
 }
 .blog h1{
     font-size: 20px;
@@ -196,9 +203,46 @@ main{
     height: 120px;
     margin-top: 20px;
 }
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .from{
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 0 5px;
+}
+.title{
+    display: flex;
+    gap: 10px;
+}
+.title h1{
+    font-size: 20px;
+}
+.inf{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.inf h1{
+    font-size: 19px;
+}
+.dates-2{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.p{
+    color:#c6c6c6
+}
+footer{
+    padding: 5px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
