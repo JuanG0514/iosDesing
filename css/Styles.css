@@ -246,3 +246,9 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+@media screen and(max-width:959px) {
+    .content h1{
+        font-size: 20px;
+        color:red;
+    }
+}
